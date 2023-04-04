@@ -1,14 +1,6 @@
 fn main() {
 
-    let x = 5;
+    let tup: (i32, f64, u8) = (500, 6.4, 1);
 
-    let x = x + 1 + 2;
-
-    {
-        let x = x * 2;
-        println!("The value of x in the inner scope is: {x}");
-    }
-
-    println!("The value of x is: {x}");
-
+    println!("The value of tup.0 is: {}", tup.0);
 }
